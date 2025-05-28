@@ -30,7 +30,7 @@ reserva-hotel-bd/
 ├── queries.sql                  # Consultas exigidas (GROUP BY, subconsulta)
 ├── sp_reserva_por_cpf.sql       # Consulta detalhada da stored procedure
 ├── tables.sql                   # Script com criação de todas as tabelas e FKs
-├── modelo_conceitual_funcionario.png  # Diagrama ER (modelo conceitual)
+├── modelo_conceitual.png  # Diagrama ER (modelo conceitual)
 ```
 
 ---
