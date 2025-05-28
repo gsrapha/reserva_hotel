@@ -37,7 +37,7 @@ reserva-hotel-bd/
 
 ## 🛠️ Tecnologias utilizadas:
 
-- **MySQL Workbench 8.x**
+- **MySQL Workbench**
 - **Modelo ER (BrModelo / Graphviz)**
 - **Linguagem SQL**
 
