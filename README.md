@@ -17,15 +17,20 @@ Este projeto contempla a estrutura necessária para registrar hóspedes, reserva
 
 ---
 
-## 📂 Estrutura do repositório:
+## 📂 Estrutura do repositório (arquivos separados):
 
 ```
 reserva-hotel-bd/
-├── hotel_reserva_com_funcionario.sql         # Script SQL com tabelas, inserts e procedures
-├── modelo_conceitual_funcionario.png         # Diagrama ER (modelo conceitual)
-├── modelo_logico.png                         # Modelo lógico (opcional)
-├── consultas_exigidas.sql                    # Consultas e stored procedure separadas
-├── README.md                                 # Descrição e documentação do projeto
+├── call_cpf.sql                  # Chamada de exemplo da stored procedure por CPF
+├── create_db.sql                 # Criação do banco de dados
+├── create_procedure.sql         # Criação da stored procedure sp_reservas_por_cpf
+├── drop_procedure.sql           # Comando para remover a stored procedure se existir
+├── drop_tables.sql              # Script para remover todas as tabelas
+├── insert_datas.sql             # Inserts com dados de exemplo (hóspedes, reservas, quartos, etc.)
+├── queries.sql                  # Consultas exigidas (GROUP BY, subconsulta)
+├── sp_reserva_por_cpf.sql       # Consulta detalhada da stored procedure
+├── tables.sql                   # Script com criação de todas as tabelas e FKs
+├── modelo_conceitual_funcionario.png  # Diagrama ER (modelo conceitual)
 ```
 
 ---
