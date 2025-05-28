@@ -1,0 +1,6 @@
+DROP TABLE IF EXISTS reserva_quarto;
+DROP TABLE IF EXISTS pagamento;
+DROP TABLE IF EXISTS reserva;
+DROP TABLE IF EXISTS quarto;
+DROP TABLE IF EXISTS hospede;
+DROP TABLE IF EXISTS funcionario;
